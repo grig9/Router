@@ -2,9 +2,9 @@
 Простой маршрутизатор
 ## Использование
 
-создаем объект Router
+создаем объект Route
 ```php
-  $router = new Router($associate_massive);
+  $route = new Route($associate_massive);
 ```
 формат передаваемого массива
 ```php
@@ -14,7 +14,7 @@
     "/contacts" => 'contacts.php',
   ];
 ```
-запуск router
+запуск route
 ```php
-  $router->run();
+  $route->run();
 ```
