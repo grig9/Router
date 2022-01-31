@@ -1,6 +1,6 @@
 <?php
 
-class Route2 {
+class Route {
   protected $routes;
 
   public function __construct($routes) {
