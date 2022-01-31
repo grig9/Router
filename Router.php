@@ -16,13 +16,10 @@ class Route {
 
   public function run() {
     $route = $_SERVER['REQUEST_URI'];
-    var_dump($route);
     if(array_key_exists($route, $this->routes)) {
-      // var_dump(include( $this->routes[$route] ));
-      echo "Маршрут найден";
+      include( $this->routes[$route] );
       return true;
     } else {
-        echo "Маршрут не найден";
         return false;
       }
     }
