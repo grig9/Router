@@ -6,7 +6,7 @@
 ```php
   $router = new Router($associate_massive);
 ```
-формат массива
+формат передаваемого массива
 ```php
   $associate_massive = [
     "/" => 'homepage.php',
